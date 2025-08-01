@@ -1,0 +1,91 @@
+/* Set a coding-style font for the entire body */
+body {
+    background-color: #1e1e1e; /* Dark theme background */
+    color: #d4d4d4; /* Light text color */
+    font-family: 'Consolas', 'Courier New', monospace; /* Monospace font */
+    font-size: 1rem;
+    padding: 20px;
+}
+
+/* Style the card with a dark theme */
+.card {
+    background-color: #252526;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #3c3c3c;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Dark theme header */
+.card-header {
+    background-color: #007acc;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+p {
+    color: #d4d4d4;
+}
+
+/* Textarea styling with coding-like background */
+textarea {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    border: 1px solid #3c3c3c;
+    width: 100%;
+    font-family: 'Consolas', 'Courier New', monospace;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1rem;
+    resize: none;
+    box-shadow: none;
+}
+
+/* Styling the button */
+button {
+    background-color: #007acc;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Consolas', 'Courier New', monospace;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005a9e;
+}
+
+/* Dark theme for the result box */
+#result {
+    background-color: #252526;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.list-group-item {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    font-size: 1rem;
+    border: 1px solid #3c3c3c;
+}
+
+.list-group-item .badge {
+    font-size: 0.9rem;
+}
+
+/* Success and danger badges */
+.badge-success {
+    background-color: #28a745;
+}
+
+.badge-danger {
+    background-color: #dc3545;
+}
